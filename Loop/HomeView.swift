@@ -36,7 +36,8 @@ struct HomeView: View {
                 }
             }
             .padding()
-        }.navigationTitle("Loop")
+            .navigationTitle("Loop")
+        }
     }
 }
 
