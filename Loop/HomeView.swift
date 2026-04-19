@@ -29,7 +29,7 @@ struct HomeView: View {
                     Text("Start Routine")
                         .font(.headline)
                         .foregroundStyle(.white)
-                        .frame(  .infinity)
+                        .frame(maxWidth: .infinity)
                         .padding()
                         .background(.blue)
                         .cornerRadius(12)
